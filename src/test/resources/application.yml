@@ -1,0 +1,14 @@
+#yaml
+mongo:
+  hostport: 127.0.0.1:27017
+  dbname: test
+  username:
+  password:
+  connectionsPerHost: 500
+  threadsAllowedToBlockForConnectionMultiplier: 2
+  connectTimeout: 5000
+  maxWaitTime: 5000
+  autoConnectRetry: true
+  socketKeepAlive: true
+  socketTimeout: 10000
+  slaveOk: true
