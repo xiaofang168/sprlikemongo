@@ -56,7 +56,7 @@ public class DbExecutorTst {
     @Test
     public void search() {
         PageWrapper<User> result = mongoExecutor.search(1, 10, User.class,
-                DbWhere.name("adCode").eq("1112"));
+                DbWhere.name("adCode").eq("1112"), DbWhere.name("cityKey").eq("10010"));
         System.out.println(">>>>>>" + result);
     }
 
