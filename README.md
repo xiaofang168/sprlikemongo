@@ -7,12 +7,9 @@ sprlikemongo
 声名式MongoDB数据库操作API
 
 ## 类图
+![](doc/img/ql.png)
 
-![](/Users/fangjie/github/sprlikemongo/doc/img/ql.png)
-
-
-
-![](/Users/fangjie/github/sprlikemongo/doc/img/ql_condition.png)
+![](doc/img/ql_condition.png)
 
 所有操作都是围绕DbQl语句，入口类：`DbWhere`，`DbUpdate`，`DbOrder`，`DbAndOr`
 
